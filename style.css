@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/map.jpg);
+}
+
+#local{
+    width: 100%;
+    background-color: blue;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td, #cities th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#cities tr:hover{
+    background-color: #ddd;
+}
+
+.col1{
+    width: 10%;
+}
+.col2{
+    width: 45%;
+}
